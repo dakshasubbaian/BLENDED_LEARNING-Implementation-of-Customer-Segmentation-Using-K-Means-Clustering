@@ -44,7 +44,7 @@ import warnings
 warnings.filterwarnings("ignore", message="KMeans is known to have a memory leak on Windows with MKL")
 
 # Step 1: Load the dataset
-data = pd.read_csv('CustomerData.csv')
+data = pd.read_csv('Mall_Customers.csv')
 
 # Step 2: Explore the data
 print(data.head())
